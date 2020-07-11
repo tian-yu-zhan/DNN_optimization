@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 In this document, we illustrate how to replicate the case study in the main article. The user can refer to https://keras.rstudio.com/ for the installation of Keras and Tensorflow. 
 ```{r 1. Setup parameters, echo = T, results = 'hide'}
-setwd("~/Dropbox/Research/AbbVie/graph nnw/R code/code_sharing_Github/R_markdown_help_file/")
+setwd("~")
 source("graph_nn_general_functions_keras.R")
 library(gMCP)
 library(doParallel)  
