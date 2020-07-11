@@ -1,6 +1,6 @@
 
 ## set working directory and source R function files
-setwd("~/Dropbox/Research/AbbVie/graph nnw/R code/code_sharing_Github/")
+setwd("~")
 source("graph_nn_general_functions_keras.R")
 
 ## load R packages
