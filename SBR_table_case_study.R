@@ -3,7 +3,7 @@
 ## case study table and graphs
 library(gMCP)
 library(xtable)
-setwd("~/Dropbox/Research/AbbVie/graph nnw/R code/code_sharing_Github/R_markdown_help_file/")
+setwd("~")
 opt.in = read.csv("fit pow 0.95 0.9 0.85 0.65 0.6 obj 0 0.6 0.2 0.1 0.1 corr 0.5 hypo 5.csv")
 naive.in = read.csv("GF 0.95 0.9 0.85 0.65 0.6 obj 0 0.6 0.2 0.1 0.1 corr 0.5 GF_n 1 hypo 5.csv")
 brute.in = read.csv("fit mat 0.95 0.9 0.85 0.65 0.6 obj 0 0.6 0.2 0.1 0.1 corr 0.5 hypo 5.csv")
