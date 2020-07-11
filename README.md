@@ -10,6 +10,8 @@ B. Case study:
   1. Save "R_markdown_FNN_optimizer.Rmd", "graph_nn_general_functions_keras.R", and "SBR_table_case_study.R" to the same folder.
   2. Source "R_markdown_FNN_optimizer.Rmd" to generate the R markdown file and results.
   3. Source "SBR_table_case_study.R" to generate Table 3. 
+  
+Note that results may be slightly different between differnt runs due to the randomness in neural networks training. 
 
 
 
