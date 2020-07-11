@@ -4,7 +4,7 @@ library(ggplot2)
 library(plyr)
 library(ggrepel)
 library(xtable)
-setwd("~/Dropbox/Research/AbbVie/graph nnw/R code/code_sharing_Github/results/main_results/")
+setwd("~")
 
 ###########################################################################################
 n.scen = 9
