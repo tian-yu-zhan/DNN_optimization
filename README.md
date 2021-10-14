@@ -1,5 +1,7 @@
 R code for the manuscript "Optimizing Graphical Procedures for Multiplicity Control in a Confirmatory Clinical Trial via Deep Learning"
 
+https://www.tandfonline.com/doi/full/10.1080/19466315.2020.1799855
+
 A. Simulations studies:
   1. Save "graph_nn_all.R", "graph_nn_general_functions_keras.R", and "SBR_table.R" to the same folder.
   2. Create subfolders "results/main_results/". 
