@@ -16,7 +16,7 @@ sig_der = function(x){
 draw.alpha.fun = function(n.hypo, n.graph, alpha.const.in){
   temp = matrix(runif(n.hypo*n.graph, 0, 1), nrow = n.graph, ncol = n.hypo)
   temp[, alpha.const.in==0] = 0
-  temp = temp/apply(temp, 1, sum)
+  temp = temp/(apply(temp, 1, sum)+0.0001)
   return(temp)
 }
 
@@ -32,7 +32,7 @@ draw.w.fun = function(n.hypo, n.graph, w.const.in){
   }
   norm = apply(temp, 3, rowSums)
   norm = array(rep(norm, each = n.hypo), dim = c(n.hypo, n.hypo, n.graph))
-  norm = aperm(norm, c(2,1,3))
+  norm = aperm(norm, c(2,1,3))+0.0001
   
   temp = temp/ norm
   return(temp)
