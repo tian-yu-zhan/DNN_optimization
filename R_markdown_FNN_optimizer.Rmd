@@ -31,6 +31,7 @@ set.seed(seed.number)
 
 corr = c(0.5) # correlation magnitude between endpoints
 n.sim = 10^6 # number of simulation per graph
+n.cluster = 4 # number of clusters for parallel computing
 
 obj.weight = c(0, 0.6, 0.2, 0.1, 0.1) # weights in the objective function
 n.hypo = length(obj.weight) # number of endpoints
