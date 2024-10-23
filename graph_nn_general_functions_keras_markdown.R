@@ -434,7 +434,7 @@ sim.data.function = function(n.hypo.in, n.sim.in, trt.vec.in, alpha.fit.in, w.fi
                          paste0("w", as.vector(sapply(1:n.hypo.in, 
                                                       function(x){paste0(x,"_", 1:n.hypo.in)}))))
   
-  pow.vec.in = pnorm(qnorm(1-qnorm(1-0.025)), mean = trt.vec.in, lower.tail = FALSE)
+  pow.vec.in = pnorm(qnorm(1-type.1.error), mean = trt.vec.in, lower.tail = FALSE)
   
     target.power.in = rep(0, n.graph.in)
     for (i in 1:n.graph.in){
