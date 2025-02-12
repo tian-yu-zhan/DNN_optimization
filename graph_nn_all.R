@@ -338,7 +338,7 @@ GF.fit.table = foreach(GF.ind = 1:(length(GF.name.vec))) %dopar% {
                           naive.opt.n = 1,
                           naive.tol = 10^(-4),
                           naive.max.n = -1,
-                          naive.max.t = neu.fit.opt.sum$total_time*1.5,
+                          naive.max.t = mean(neu.fit.opt.sum$total_time)*1.5,
                           # naive.max.t = 10,
                           pval.sim.mat.in = sim.data.fit$pval.matrix,
                           x0.given = NULL,
